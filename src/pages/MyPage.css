@@ -1,0 +1,165 @@
+.mypage-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    width: calc(100% - 300px); /* 프로필 이미지와 간격을 확보 */
+}
+
+.profile-info p {
+    font-weight: bold; /* 폰트를 굵게 설정 */
+}
+
+.profile-form,
+.password-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.profile-info p,
+.profile-form div,
+.password-form div {
+    margin-bottom: 10px;
+}
+
+.profile-form label,
+.password-form label {
+    margin-right: 10px;
+}
+
+.lists-section {
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-decoration: none;
+    color: inherit;
+    width: 100%; /* 화면 넘어가지 않도록 설정 */
+}
+
+.item-image {
+    height: 150px; /* 이미지 크기를 크게 설정 */
+    width: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.item-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.delete-button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-right: 30px;
+
+}
+
+.confirm-button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-right: 30px;
+
+}
+
+.refund-button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-right: 30px;
+}
+
+.confirmed-text {
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+.purchase-buttons {
+    display: flex;
+    flex-direction: column; /* 버튼을 세로로 나열 */
+    gap: 10px;
+}
+
+.profile-change-button,
+.update-button,
+.password-change-button {
+    position: absolute;
+    bottom: -70px; /* 프로필 이미지의 아래로 이동 */
+    right: 0;
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 280px;
+}
+
+.profile-change-button:hover,
+.update-button:hover,
+.password-change-button:hover {
+    background-color: #333333;
+}
+
+.update-button {
+    bottom: 50px; /* 프로필 업데이트 버튼 위치 조정 */
+}
+
+.password-change-button {
+    bottom: 0px; /* 비밀번호 변경 버튼 위치 조정 */
+}
