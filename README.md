@@ -7,7 +7,7 @@ Fuser는 React, React Router, Firebase를 사용하여 구축된 전자 제품 �
 ### `src/App.js`
 
 - **`App` 컴포넌트**: 애플리케이션의 주요 라우팅 및 레이아웃을 정의합니다.
-  - **`AuthProvider`**로 인증 상태를 관리합니다.
+  - `AuthProvider`로 인증 상태를 관리합니다.
   - **`PrivateRoute`**를 사용하여 인증된 사용자만 접근할 수 있는 라우트를 보호합니다.
   - `/` 및 `/login` 경로는 공개되어 있고, 나머지 경로는 **`PrivateRoute`**로 보호됩니다.
 - **`DefaultLayout` 컴포넌트**: 공통 레이아웃 및 스타일을 정의합니다.
