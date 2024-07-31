@@ -1,5 +1,7 @@
 ![Wire Frame _ Login1](https://github.com/user-attachments/assets/757dbc6f-b502-48de-ac61-f4bc922a8bb8)
 
+<br/><br>
+
 # Fuser
 Fuser는 React, React Router, Firebase를 사용하여 구축된 전자 제품 전문 중고 거래 사이트입니다. 이 문서는 각 코드 파일의 주요 기능을 설명합니다.
 
