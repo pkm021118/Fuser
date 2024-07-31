@@ -31,14 +31,14 @@ Fuser는 React, React Router, Firebase를 사용하여 구축된 전자 제품 �
 - **인증된 사용자만 접근할 수 있는 라우트 컴포넌트**:
   - **`useAuth`** 훅을 사용하여 현재 사용자 상태를 확인합니다.
   - 인증되지 않은 사용자는 로그인 페이지로 리디렉션하고, 로그인 이후 사용할 수 있다는 경고 메시지를 표시합니다.
-  - 인증된 사용자는 **`Outlet`**을 통해 자식 라우트를 렌더링합니다.
+  - 인증된 사용자는 `Outlet`을 통해 자식 라우트를 렌더링합니다.
 
 ### `src/contexts/AuthContext.js`
 
 - **사용자 인증 상태를 관리하는 컨텍스트**:
   - **`AuthProvider`** 컴포넌트를 통해 인증 상태와 관련된 기능을 제공합니다.
   - **`useAuth`** 훅을 통해 다른 컴포넌트에서 인증 상태를 사용할 수 있게 합니다.
-  - **`login`**, **`logout`** 함수와 **`onAuthStateChanged`**를 사용하여 Firebase 인증 상태를 관리합니다.
+  - **`login`**, `logout` 함수와 `onAuthStateChanged`를 사용하여 Firebase 인증 상태를 관리합니다.
 
 ### `src/Firebase/fbInstance.js`
 
