@@ -2,8 +2,8 @@
 
 Fuser는 React, React Router, Firebase를 사용하여 구축된 전자 제품 전문 중고 거래 사이트입니다. 이 문서는 각 코드 파일의 주요 기능을 설명합니다.
 
-
-# Figma Link
+<br>
+## Figma Link
 
 https://www.figma.com/design/QmXvmCkX3rTGkn2W1q8EbW/FUSER?node-id=0-1&t=JoO7vFbbpBBgJmrB-1
 
