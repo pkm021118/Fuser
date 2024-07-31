@@ -4,8 +4,8 @@ Fuser는 React, React Router, Firebase를 사용하여 구축된 전자 제품 �
 
 <br/><br>
 ## Link
-**'Figma'** : https://www.figma.com/design/QmXvmCkX3rTGkn2W1q8EbW/FUSER?node-id=0-1&t=JoO7vFbbpBBgJmrB-1
-**'youtube'** : 
+**`Figma`** : https://www.figma.com/design/QmXvmCkX3rTGkn2W1q8EbW/FUSER?node-id=0-1&t=JoO7vFbbpBBgJmrB-1
+**`youtube`** : 
 
 ## 파일 구조 및 기능 설명
 
